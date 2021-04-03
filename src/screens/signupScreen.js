@@ -1,6 +1,7 @@
 import React from 'react'
+import './SignupScreen.css'
 
-function signupScreen() {
+function SignupScreen() {
     return (
         <div className = 'signupScreen'>
             <form>
@@ -14,4 +15,4 @@ function signupScreen() {
     )
 }
 
-export default signupScreen
+export default SignupScreen
